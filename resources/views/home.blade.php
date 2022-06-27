@@ -1,12 +1,12 @@
 @extends('layouts.app')
 
 @section('title')
-    DC Comics Home    
+    DC Comics | Home    
 @endsection
 
-@section('main_content')
-    <div class="banner">
-        <div class="series">Current Series</div>
+@section('main')
+    <div class="main__banner">
+        <div class="main__series">Current Series</div>
     </div>
     <div class="main__container">
         @foreach ($comics as $item)
