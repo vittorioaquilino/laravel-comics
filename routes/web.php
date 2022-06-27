@@ -20,3 +20,15 @@ Route::get('/', function () use($data) {
     return view('home', $data);
 })->name('home');
 
+Route::get('single/{id}', function ($id) use($data)  {
+    
+    $comics = collect($data['comics']);
+    
+    $singleComic = $comics->where('id', $id)->first();
+    if(!$singleComic) {
+        return abort(404);
+    }
+
+    $data = array_merge($data, ['id' => $id, 'singleComic' => $singleComic]);
+    return view('single', $data);
+})->name('single-comics');

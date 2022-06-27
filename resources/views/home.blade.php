@@ -14,7 +14,9 @@
                 <div class="card__img">
                     <img src="{{ $item['thumb'] }}" alt="">
                 </div>
-                <h3>{{ $item['series'] }}</h3>
+                <a href="{{ route('single-comics', ['id' => $item['id']]) }}">
+                    <h3>{{ $item['series'] }}</h3>
+                </a>
             </div>
         @endforeach
         <div class="load-more">

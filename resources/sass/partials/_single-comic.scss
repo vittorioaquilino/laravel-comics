@@ -1,0 +1,146 @@
+body {
+    background-color: white;
+    color: black;
+}
+.card__img-2 {
+    width: 180px;
+    padding: 0;
+    font-size: 0;
+    position: absolute;
+    left: 15%;
+    bottom: -10%;
+    border: 1px solid white;
+}
+
+.row-blue {
+    height: 80px;
+    background-color: #0082f9;
+}
+
+.ms_container-1 {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    padding: 4rem 0;
+
+    h1 {
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        color: #003f5e;
+    }
+
+    .price {
+        width: 90%;
+        height: 50px;
+        background-color: #55ba59;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 1.5rem 0;
+        font-size: .9rem;
+        color: #abec72;
+        border-bottom: 1px solid gray;
+
+        .left {
+            width: 75%;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 2rem;
+            
+            span {
+                color: white;
+                font-weight: bold;
+            }
+        }
+
+        .right {
+            width: 25%;
+            border-left: 1px solid gray;
+            height: 50px;
+            line-height: 50px;
+            display: flex;
+            justify-content: center;
+
+            .check {
+                color: white;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .description {
+        p {
+            color: #666566;
+            font-size: .8rem;
+            width: 90%;
+        }
+    }
+
+    .card-advertising {
+        text-align: right;
+        text-transform: uppercase;
+        color: #666566;
+    }
+}
+
+.ms_container-fluid {
+    padding: 2rem 0;
+    border-top: 1px solid gray;
+    background-color: #f6f6f6;
+
+    .ms_container-2 {
+        width: 70%;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+
+        h4 {
+            padding: 1rem 0;
+        }
+
+        
+        .wrapper {
+            width: 600px;
+            display: flex;
+            justify-content: space-between;
+    
+            div {
+                width: calc(100% / 2);
+                margin: 1rem 0;
+            }
+
+            small {
+                color: #0282f9;
+            }
+        }
+
+        .warpper_2 {
+            width: 300px;
+            margin-top: 0;
+            display: flex;
+            justify-content: space-between;
+            
+            div {
+                width: 100%;
+                margin: 1rem 0;
+            }
+            .serie {
+                color: #0282f9;
+                text-transform: uppercase;
+            }
+        }
+        .blue {
+            color: #003f5e;
+        }
+
+    }
+
+    .bor-t {
+        border-top: 1px solid #e6e6e6;
+    }
+    
+    .bor-b {
+        border-bottom: 1px solid #e6e6e6;
+    }
+
+}

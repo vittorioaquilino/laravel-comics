@@ -1,6 +1,9 @@
 .footer {
     background-image: url('/images/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
+
     &__container-top {
         display: flex;
         justify-content: space-between;
@@ -24,7 +27,7 @@
     padding-top: 1.5rem;
 }
 .footer__list {
-    padding: 1rem;
+    padding: 3rem;
     h3 {
         margin-bottom: .5rem;
         text-transform: uppercase;
